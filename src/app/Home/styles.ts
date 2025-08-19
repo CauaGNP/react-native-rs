@@ -7,6 +7,14 @@ export const styles = StyleSheet.create({
     backgroundColor: "#d0d2d8",
     paddingTop: 62,
   },
+  header: {
+    width: "100%",
+    flexDirection: "row",
+    gap: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: "#E4E6EC",
+    paddingBottom: 12,
+  },
   logo: {
     height: 34,
     width: 128,
@@ -23,7 +31,16 @@ export const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
+    paddingTop: 32,
     padding: 24,
     marginTop: 24,
   },
+  clearButton:{
+    marginLeft: "auto",
+  },
+  clearText:{
+    fontSize: 12,
+    color: "#828282",
+    fontWeight:600,
+  }
 });
